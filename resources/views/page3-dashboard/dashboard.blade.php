@@ -55,7 +55,7 @@
                 <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseKelas"
                     aria-expanded="true" aria-controls="collapseKelas">
                     <i class="bi bi-person"></i>
-                    <span>Kelas</span>  
+                    <span>Kelas</span>
                 </a>
                 <div id="collapseKelas" class="collapse" aria-labelledby="headingKelas" data-bs-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
@@ -73,7 +73,7 @@
                 <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseAbsensi"
                     aria-expanded="true" aria-controls="collapseAbsensi">
                     <i class="bi bi-calendar"></i>
-                    <span>Sekretaris</span>  
+                    <span>Sekretaris</span>
                 </a>
                 <div id="collapseAbsensi" class="collapse" aria-labelledby="headingAbsensi" data-bs-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
@@ -92,7 +92,7 @@
                 <button>
                 <i class="bi bi-chevron-bar-left border-0" icon></i>
                 </button>
-            
+
             </div>
 
 
@@ -225,10 +225,13 @@
                                 </div>
                             </div>
                         </div>
-
+                    </div>
+                </div>
+            </div>
+        </div>
                 <!-- /.container-fluid -->
 
-    </div>
+
     <!-- End of Page Wrapper -->
 
     <!-- Logout Modal-->
@@ -251,23 +254,7 @@
         </div>
     </div>
 
-    <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.min.js"></script>
-
-    <!-- Page level plugins -->
-    <script src="vendor/chart.js/Chart.min.js"></script>
-
-    <!-- Page level custom scripts -->
-    <script src="js/demo/chart-area-demo.js"></script>
-    <script src="js/demo/chart-pie-demo.js"></script>
-
+    </div>
 </body>
 
 </html>
