@@ -20,7 +20,6 @@
 
     <!-- Custom styles for this template-->
     <link href="{{asset('assets/css/style-dashboard.css')}}" rel="stylesheet">
-    <script src="{{asset('assets/js/sb-dashboard.js')}}"></script>
 
     <style>
         .btn{
