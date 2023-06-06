@@ -127,23 +127,24 @@
                     </form>
 
                     <!-- Nav Item - User Information -->
-                    <li class="nav-item dropdown no-arrow" style="padding: 0 3px 10px 100px;">
-                        <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="mr-2 d-none d-lg-inline text-gray-600 bold">Nama Sensei</span>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle no-arrow" href="#" id="userDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="mr-2 d-none d-lg-inline text-gray-600 fw-bold">Nama Sensei</span>
                             <img class="img-profile rounded-circle"
-                                src="{{asset('assets/img/veritas_leader.png')}}">
+                                 src="{{asset('assets/img/veritas_leader.png')}}">
                         </a>
                         <!-- Dropdown - User Information -->
-                        <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
-                            aria-labelledby="userDropdown">
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
-                                <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                                Logout
-                            </a>
-                        </div>
+                        <ul class="dropdown-menu dropdown-menu-end shadow animated--grow-in" aria-labelledby="userDropdown">
+                            <li>
+                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                                    <i class="bi bi-box-arrow-left"></i>
+                                    Logout
+                                </a>
+                            </li>
+                        </ul>
                     </li>
+
 
                     </ul>
 
