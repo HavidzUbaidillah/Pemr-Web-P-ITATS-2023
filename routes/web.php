@@ -25,3 +25,12 @@ Route::get('/login', function (){
     return view('page2-login.login');
 });
 Route::post('/login-auth', [LoginController::class, 'authLogin']);
+Route::get('/dashboard',function(){
+    return view('page3-dashboard.dashboard');
+});
+Route::get('/kelas',function(){
+    return view('page4-kelas.kelas');
+});
+Route::get('/tes',function(){
+    return view ('dash');
+});
