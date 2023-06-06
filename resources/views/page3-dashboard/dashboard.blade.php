@@ -20,7 +20,14 @@
 
     <!-- Custom styles for this template-->
     <link href="{{asset('assets/css/style-dashboard.css')}}" rel="stylesheet">
+    <script src="{{asset('assets/js/sb-dashboard.js')}}"></script>
 
+    <style>
+        .btn{
+            color :white;
+        }
+
+    </style>
 </head>
 
 <body id="page-top">
@@ -89,10 +96,7 @@
 
             <!-- Sidebar Toggler (Sidebar) -->
             <div class="text-center d-none d-md-inline">
-                <button>
-                <i class="bi bi-chevron-bar-left border-0" icon></i>
-                </button>
-
+                <button class="bi bi-chevron-bar-left btn btn-transparent btn btn-lg"></button>
             </div>
 
 
@@ -252,10 +256,11 @@
                     <a class="btn btn-primary" href="#">Logout</a>
                 </div>
             </div>
+
         </div>
     </div>
 
     </div>
-</body>
 
+</body>
 </html>
