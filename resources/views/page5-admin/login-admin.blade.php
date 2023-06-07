@@ -262,28 +262,7 @@
                     <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
                     <li><a class="nav-link scrollto" href="#tentang">Tentang Kami</a></li>
                     <li><a class="nav-link scrollto" href="#stats">Statistik</a></li>
-                    <li class="dropdown">
-                        <a href="#" id="login">Login<i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="/login">Sensei</a></li>
-                            <li><a href="/login">Sekretaris</a></li>
-                        </ul>
-                    </li>
-
-                    <script>
-                        $(document).ready(function () {
-                            $('#login').click(function (event) {
-                                event.preventDefault();
-                            });
-                        });
-                        $(document).ready(function () {
-                            $('#logo').click(function (event) {
-                                event.preventDefault();
-                            });
-                        });
-                    </script>
                 </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
 
         </div>
