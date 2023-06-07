@@ -34,3 +34,9 @@ Route::get('/kelas',function(){
 Route::get('/tes',function(){
     return view ('dash');
 });
+Route::get('/admin',function (){
+   return view('page5-admin.dashboard-admin');
+});
+Route::get('/belutlogin', function (){
+   return view('page5-admin.login-admin');
+});
